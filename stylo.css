@@ -23,7 +23,7 @@ a {
 .Loginright {
     Width: 130px;
     Height: 41px;
-    border-radius: 20px;
+    border-radius: 20.1px;
     background: #665AE1;
     border: none;
     cursor: pointer;
@@ -36,7 +36,7 @@ a {
 .Exploreleft {
     Width: 239px;
     Height: 64px;
-    border-radius: 20px;
+    border-radius: 20.1px;
     border: none;
     cursor: pointer;
     background: #ADFF00;
