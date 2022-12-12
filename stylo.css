@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' sem serifa;
+}
+
+.right {
+    margin: 23px 0  0 33px;
+}
+
+.left {
+    display: inline-block;
+}
+
+a {
+    margin-right: 23px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #989D9C;
+}
+
+.Loginright {
+    Width: 130px;
+    Height: 41px;
+    border-radius: 20px;
+    background: #665AE1;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.Exploreleft {
+    Width: 239px;
+    Height: 64px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+img {
+    Width: 568px;
+    Height: 500px;
+    margin: 144px 86px 0 125px;
+}
+
+h1 {
+    Width: 513px;
+    Height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+p {
+    Width: 450px;
+    Height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 32px 0 65px 0;
+    color: #848484;
+}
+
+@media screen and (max-width: 900) {
+    
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    a {
+        visibility: collapse;
+    }
+
+    img {
+        position: absolute;
+        width: 354px;
+        height: 317px;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        position: absolute;
+        text-align: center;
+    }
+
+    h2 {
+        width: 448px;
+        height: 71px;
+        font-weight: 500;
+        font-size: 58px; 
+        position: absolute;
+    }
+
+    p {
+        visibility: collapse;
+    }
+    
+    .Loginright {
+        visibility: collapse;
+    }
+
+    .Exploreleft {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
